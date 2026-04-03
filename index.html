@@ -151,7 +151,7 @@
 
         <form id="webinar-form">
             <!-- Web3Forms Access Key -->
-            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE">
+            <input type="hidden" name="access_key" value="f14c3640-5df1-4ea5-b0ac-0a7e9d0b3c58">
             <input type="hidden" name="subject" value="New AayoApp Webinar Registration!">
 
             <div class="input-group">
@@ -329,7 +329,7 @@
         }
 
         function animate() {
-            requestAnimationFrame(animate); ctx.clearRect(0, 0, innerWidth, innerHeight);
+            requestAnimationFrame(animate); ctx.clearRect(0, 0, canvas.width, canvas.height);
             for (let i = 0; i < particlesArray.length; i++) { particlesArray[i].update(); }
             connect();
         }
